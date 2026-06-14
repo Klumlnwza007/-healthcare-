@@ -1,4 +1,4 @@
-@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Inter:ital,opsz,wght@0,14..32,100..900;1,14..32,100..900&family=Kavoon&family=Noto+Sans+Thai:wght@100..900&display=swap');
 
 html {
     font-size: 100%;
@@ -11,7 +11,7 @@ html {
     --background-color-secondary: #D9D9D9;
 
     --font-family-logo: "kavoon", serif;
-    --font-family-primary: "Inter", sans-serif;
+    --font-family-primary: "Noto Sans Thai", sans-serif;
 }
 
 * {
@@ -151,8 +151,9 @@ body {
 
 .header__box {
     background-color: var(--background-color-primary-fade);
+    width: 100%;
 
-    padding: 1rem;
+    padding-block: 1rem;
 }
 
 .header__group {
@@ -290,4 +291,216 @@ body {
 
 .nav__description {
     font-family: var(--font-family-primary);
+}
+
+.header__profile {
+    display: inline-flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.header__profile-image {
+    height: 100%;
+    max-height: 7rem;
+    width: 100%;
+    max-width: 7rem;
+}
+
+.header__userid {
+    font-family: var(--font-family-primary);
+    font-size: 1rem;
+    color: #FFF;
+}
+
+.header__search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding-inline: 1.5rem;
+    padding-block: .5rem;
+
+    border-radius: 20px;
+
+    background-color: #FFF;
+}
+
+.header__search-icon {
+    height: 100%;
+    max-height: 2rem;
+    width: 100%;
+    max-width: 2rem;
+}
+
+.header__input {
+    flex: 1;
+
+    background: transparent;
+
+    font-family: var(--font-family-primary);
+    color: #000;
+    font-size: .8rem;
+
+    outline: none;
+    border: none;
+}
+
+.header__notification {
+    width: 100%;
+    max-width: 6.7rem;
+    height: 100%;
+    max-height: 6.7rem;
+}
+
+.overview__hero_card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    
+    background-color: #DFEBF2;
+    height: 100%;
+    max-height: 10rem;
+    width: 100%;
+    max-width: 24rem;
+    border-radius: 20px;
+    
+    margin-block-start: 4rem;
+    margin-block-end: 2rem;
+    margin-inline: auto;
+
+    padding-block: 5rem;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+
+    position: relative;
+}
+
+.overview__meeting {
+    font-family: var(--font-family-primary);
+    font-size: 2.5rem;
+    color: #000;
+    margin-inline: auto;
+}
+/* 
+.overview__illustration-1 {
+    height: 100%;
+    max-height: 10rem;
+    width: 100%;
+    max-width: 10rem;
+
+    position: absolute;
+    left: 0;
+    bottom: 0;
+
+    border: 1px solid red;
+} */
+
+.overview__illustration-2 {
+    height: 100%;
+    max-height: 5rem;
+    width: 100%;
+    max-width: 5rem;
+
+    position: absolute;
+    right: 0;
+    bottom: 0;
+    transform: translate(-20%, -20%);
+    /* transform: translateY(-20%); */
+}
+
+.overview__card {
+    display: flex;
+    justify-content: center;
+    gap: .75rem;
+
+    
+}
+
+.overview__card-left {
+    background-color: #0A1D48;
+    padding: .75rem;
+    border-radius: 20px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+
+    position: relative;
+}
+
+.overview__title {
+    font-family: var(--font-family-primary);
+    font-size: 1.5rem;
+    color: #FFF;
+}
+
+.overview__date {
+    font-family: var(--font-family-primary);
+    color: #FFF;
+}
+
+.overview__illustration-3 {
+    height: 100%;
+    max-height: 6.25rem;
+    width: 100%;
+    max-width: 4.875rem;
+
+    right: 0;
+    bottom: 0;
+
+    position: absolute;
+}
+
+.overview__input {
+    padding: .5rem;
+    border-radius: 10px;
+    border: none;
+    outline: none   ;
+
+    margin-block-start: .5rem;
+}
+
+.overview__card-right {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 1.25rem;
+}
+
+.overview__card-child1 {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    background-color: #91C7F3;
+    padding: .5rem;
+
+    border-radius: 10px;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+
+    position: relative;
+}
+
+.overview__card-child2 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: #27578D;
+    padding: .5rem;
+
+    box-shadow: 0 4px 12px rgba(0,0,0,.15);
+
+    border-radius: 10px;
+}
+
+.overview__illustration-4 {
+    height: 100%;
+    max-height: 3.125rem;
+    width: 100%;
+    max-width: 3.125rem;
+
+    align-self: flex-end;
+}
+
+.overview__illustration-5 {
+    height: 100%;
+    max-height: 3.25rem;
+    width: 100%;
+    max-width: 3.6875rem;
 }
