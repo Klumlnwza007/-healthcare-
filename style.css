@@ -535,3 +535,80 @@ body {
 
     box-shadow: 1px 4px 0 rgba(0,0,0,.15);
 }
+
+.header-setting {
+    margin-block-start: 5rem;
+    padding-block-end: .5rem;
+    border-bottom: 1px solid white;
+}
+
+.header__set {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+}
+
+.header__set-text {
+    font-family: var(--font-family-primary);
+    font-size: 3rem;
+    font-weight: 300;
+
+    color: #FFF;
+}
+
+.header__set-icon {
+    height: 100%;
+    max-height: 6.25rem;
+    width: 100%;
+    max-width: 9rem;
+}
+
+.setting__group {
+    display: grid;
+    grid-template-columns: 1fr;
+}
+
+.setting__card {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    border-bottom: 1px solid #FFF;
+}
+
+.setting__text {
+    color: #FFF;
+    margin-inline-start: 1.5rem;
+}
+
+.setting__button {
+    display: flex;
+    justify-content: center;
+
+    margin-block-start: 2.5rem;
+}
+
+.setting__but {
+    display: inline-flex;
+    gap: 2rem;
+    
+    background-color: #b3b3b3;
+
+    border-radius: 999px;
+    padding: .5rem 3rem;
+    border: 1px solid #FFF;
+    
+    /* opacity: 80%; */
+}
+
+.button-setting {
+    font-family: var(--font-family-primary);
+    color: #FFF;
+}
+
+.setting__exit-img {
+    height: 100%;
+    max-height: 2.5rem;
+    width: 100%;
+    max-width: 2.5rem;
+}
