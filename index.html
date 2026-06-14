@@ -8,9 +8,19 @@
 </head>
 <body>
     <header class="header">
-        <nav class="login-navbar">
-
-        </nav>
+        <div class="header-chatbot">
+            <div class="header__box">
+                <div class="container">
+                    <div class="header__group">
+                        <img src="images/logo.svg" alt="" class="header__logo">
+                        <div class="header__chatbot">
+                            <h1 class="header__text">Chatbot</h1>
+                            <img src="images/avatar-chatbot.svg" alt="" class="header__chatavatar">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
     </header>
 
     <main class="main">
@@ -47,7 +57,28 @@
 
         <!-- chatbot page -->
         <section class="chatbot">
+            <div class="container">
+                <div class="chatbot__chatarea">
+                    <div class="chatbot__blank">
+                        <div class="chatbot__ai"></div>
+                        <div class="chatbot_user"></div>
 
+                        <div class="chatbot__advice">
+                            <p class="chatbot__question">คุณต้องการความช่วยเหลือ?</p>
+                             <div class="chatbot__message">
+                                <button class="button button-chatbot">ต้องการพบแพทย์</button>
+                                <button class="button button-chatbot">ไม่เป็นไร</button>
+                             </div>
+                        </div>
+                    </div>
+
+
+                    <div class="chatbot__type">
+                       <img src="images/microphone.png" alt="" class="chatbot__microphone">
+                       <input type="text" class="chatbot__input" placeholder="พิมพ์ข้อความ...">
+                       <img src="images/send.png" alt="" class="chatbot__send">
+                    </div>
+            </div>
         </section>
 
         <!-- status page -->
@@ -67,7 +98,31 @@
     </main>
 
     <footer class="footer">
+        <div class="login-footer">
 
+        </div>
+        <nav class="nav-footer">
+                <div class="nav__box">
+                    <div class="nav__item">
+                        <a href="#" class="nav__link"><img src="images/home.svg" alt="nav icon"></a>
+                        <a class="nav__description">หน้าหลัก</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="#" class="nav__item"><img src="images/coupon.svg" alt="nav icon"></a>
+                        <a class="nav__description">สิทธิ</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="#" class="nav__item"><img src="images/chatbot.svg" alt="nav icon"></a>
+                        <a class="nav__description">Chatbot</a>
+                    </div>
+                    <div class="nav__item">
+                        <a href="#" class="nav__item"><img src="images/settings.svg" alt="nav icon"></a>
+                        <a class="nav__description">การตั้งค่า</a>
+                    </div>
+                </div>
+
+                <div class="nav__choose"></div>
+        <nav>
     </footer>
 
     <script src="script.js"></script>
