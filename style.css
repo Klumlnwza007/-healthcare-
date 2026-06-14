@@ -301,9 +301,9 @@ body {
 
 .header__profile-image {
     height: 100%;
-    max-height: 7rem;
+    max-height: 5rem;
     width: 100%;
-    max-width: 7rem;
+    max-width: 5rem;
 }
 
 .header__userid {
@@ -380,19 +380,6 @@ body {
     color: #000;
     margin-inline: auto;
 }
-/* 
-.overview__illustration-1 {
-    height: 100%;
-    max-height: 10rem;
-    width: 100%;
-    max-width: 10rem;
-
-    position: absolute;
-    left: 0;
-    bottom: 0;
-
-    border: 1px solid red;
-} */
 
 .overview__illustration-2 {
     height: 100%;
@@ -404,7 +391,6 @@ body {
     right: 0;
     bottom: 0;
     transform: translate(-20%, -20%);
-    /* transform: translateY(-20%); */
 }
 
 .overview__card {
@@ -503,4 +489,49 @@ body {
     max-height: 3.25rem;
     width: 100%;
     max-width: 3.6875rem;
+}
+
+.header__box-sp {
+    background-color: var(--background-color-secondary);
+    padding: 1rem;
+}
+
+.header__group-sp {
+    display: flex;
+    justify-content: flex-start;
+    align-items: center;
+
+    gap: 1rem;
+}
+
+.header__userid {
+    color: #000;
+}
+
+.header__text-sp {
+    font-family: var(--font-family-primary);
+    color: #000;
+}
+
+.coupon__box {
+    flex: 1;
+
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 3.5rem;
+
+    margin-block: 6rem;
+    padding-inline: 3rem;
+}
+
+.button-coupon {
+    background-color: #91C7F3;
+    border-radius: 999px;
+
+    font-family: var(--font-family-primary);
+    font-size: 1.5rem;
+
+    padding: 1rem 0;
+
+    box-shadow: 1px 4px 0 rgba(0,0,0,.15);
 }
