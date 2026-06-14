@@ -284,9 +284,26 @@ body {
  }
 
 .nav__item {
+    width: 6rem;
+    height: 5rem;
+
     display: flex;
     flex-direction: column;
+    justify-content: center;
     align-items: center;
+
+    border-radius: 1rem;
+
+    transition: all .3s ease;
+}
+
+.nav__item.active {
+    background-color: #91C7F3;
+
+    border-top-left-radius: 1rem;
+    border-top-right-radius: 1rem;
+
+    transform: translateY(-12px);
 }
 
 .nav__description {
@@ -597,8 +614,6 @@ body {
     border-radius: 999px;
     padding: .5rem 3rem;
     border: 1px solid #FFF;
-    
-    /* opacity: 80%; */
 }
 
 .button-setting {
@@ -611,4 +626,8 @@ body {
     max-height: 2.5rem;
     width: 100%;
     max-width: 2.5rem;
+}
+
+.hidden {
+    display: none;
 }

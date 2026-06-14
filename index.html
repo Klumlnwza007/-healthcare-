@@ -1,33 +1,35 @@
 <!DOCTYPE html>
 <html lang="en">
+
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Q-Care</title>
     <link rel="stylesheet" href="style.css">
 </head>
+
 <body>
     <header class="header">
         <!-- Overview (Header) -->
-         <div class="header-overview">
-             <div class="header__box">
-                 <div class="container">
-                     <div class="header__group">
-                         <div class="header__profile">
-                             <img src="images/profile.svg" alt="" class="header__profile-image">
-                             <p class="header__userid">xxxxxx</p>
-                         </div>
-             
-                         <div class="header__search">
-                             <img src="images/search.svg" alt="" class="header__search-icon">
-                             <input type="text" class="header__input" placeholder="ค้นหา">
-                         </div>
-             
-                         <img src="images/notification.svg" alt="" class="header__notification">
-                     </div>
-                 </div>
-             </div>
-         </div>
+        <div class="header-overview">
+            <div class="header__box">
+                <div class="container">
+                    <div class="header__group">
+                        <div class="header__profile">
+                            <img src="images/profile.svg" alt="" class="header__profile-image">
+                            <p class="header__userid">xxxxxx</p>
+                        </div>
+
+                        <div class="header__search">
+                            <img src="images/search.svg" alt="" class="header__search-icon">
+                            <input type="text" class="header__input" placeholder="ค้นหา">
+                        </div>
+
+                        <img src="images/notification.svg" alt="" class="header__notification">
+                    </div>
+                </div>
+            </div>
+        </div>
 
         <!-- Chatbot (Header) -->
         <div class="header-chatbot">
@@ -73,7 +75,7 @@
 
     <main class="main">
         <!-- log in page -->
-        <section class="log_in">
+        <section class="page log_in">
             <div class="container">
                 <div class="log_in__logo">
                     <img src="images/logo-text.png" alt="q-care logo" class="logo__icon">
@@ -84,7 +86,7 @@
                         <img src="images/circle-user.svg" alt="user image" class="information__icon">
                         <input type="text" class="information__input" placeholder="รหัสประจำตัวประชาชน">
                     </div>
-    
+
                     <div class="information__password">
                         <img src="images/lock.svg" alt="password image" class="information__icon">
                         <input type="text" class="information__input" placeholder="รหัสผ่าน">
@@ -96,22 +98,22 @@
                 </div>
 
                 <div class="log_in__btn">
-                    <button class="button button-primary">เข้าสู่ระบบ</button>
+                    <button class="button button-primary login-btn">เข้าสู่ระบบ</button>
                     <p class="btn__text">หรือ</p>
-                    <button class="button button-primary">ลงทะเบียน</button>
+                    <button class="button button-primary login-btn">ลงทะเบียน</button>
                 </div>
             </div>
         </section>
 
         <!-- overview page -->
-        <section class="overview">
+        <section class="page overview">
             <div class="container">
                 <div class="overview__hero_card">
                     <!-- <img src="images/illustration_1.svg" alt="" class="overview__illustration-1"> -->
                     <p class="overview__meeting">นัดพบแพทย์</p>
                     <img src="images/illustration_2.svg" alt="" class="overview__illustration-2">
                 </div>
-    
+
                 <div class="overview__card">
                     <div class="overview__card-left">
                         <h2 class="overview__title">ประวัติการรักษา</h2>
@@ -119,14 +121,14 @@
                         <input type="text" class="overview__input" placeholder="โรงพยาบาลxxx">
                         <img src="images/illustration_3.svg" alt="" class="overview__illustration-3">
                     </div>
-        
+
                     <div class="overview__card-right">
                         <div class="overview__card-child1">
                             <h2 class="overview__title">นัดหมายถัดไป</h2>
                             <p class="overview__date">ไม่พบการนัดหมาย</p>
                             <img src="images/illustration_4.svg" alt="" class="overview__illustration-4">
                         </div>
-            
+
                         <div class="overview__card-child2">
                             <h2 class="overview__title">แผนกการรักษา</h2>
                             <img src="images/illustration_5.svg" alt="" class="overview__illustration-5">
@@ -137,7 +139,7 @@
         </section>
 
         <!-- chatbot page -->
-        <section class="chatbot">
+        <section class="page chatbot">
             <div class="container">
                 <div class="chatbot__chatarea">
                     <div class="chatbot__blank">
@@ -146,43 +148,43 @@
 
                         <div class="chatbot__advice">
                             <p class="chatbot__question">คุณต้องการความช่วยเหลือ?</p>
-                             <div class="chatbot__message">
+                            <div class="chatbot__message">
                                 <button class="button button-chatbot">ต้องการพบแพทย์</button>
                                 <button class="button button-chatbot">ไม่เป็นไร</button>
-                             </div>
+                            </div>
                         </div>
                     </div>
 
 
                     <div class="chatbot__type">
-                       <img src="images/microphone.png" alt="" class="chatbot__microphone">
-                       <input type="text" class="chatbot__input" placeholder="พิมพ์ข้อความ...">
-                       <img src="images/send.png" alt="" class="chatbot__send">
+                        <img src="images/microphone.png" alt="" class="chatbot__microphone">
+                        <input type="text" class="chatbot__input" placeholder="พิมพ์ข้อความ...">
+                        <img src="images/send.png" alt="" class="chatbot__send">
                     </div>
-            </div>
+                </div>
         </section>
 
         <!-- status page -->
-        <section class="status">
+        <section class="page status">
 
         </section>
 
         <!-- coupon page -->
-        <section class="coupon">
+        <section class="page coupon">
             <div class="container">
                 <div class="coupon__box">
                     <button class="button button-coupon">
                         สิทธิการรักษาหลัก
                     </button>
-    
+
                     <button class="button button-coupon">
                         สิทธิที่ครอบครอง
                     </button>
-    
+
                     <button class="button button-coupon">
                         โรงพยาบาลที่ใช้ได้
                     </button>
-    
+
                     <button class="button button-coupon">
                         สอบถามสิทธิ
                     </button>
@@ -191,29 +193,29 @@
         </section>
 
         <!-- setting page -->
-        <section class="setting">
+        <section class="page setting">
             <div class="setting__group">
                 <div class="setting__card">
                     <h2 class="setting__text">ข้อมูลส่วนตัว</h2>
                     <img src="images/hamburger.svg" alt="" class="setting__more">
                 </div>
-    
+
                 <div class="setting__card">
                     <h2 class="setting__text">ความปลอดภัย</h2>
                     <img src="images/hamburger.svg" alt="" class="setting__more">
                 </div>
-    
+
                 <div class="setting__card">
                     <h2 class="setting__text">ภาษาและภูมิภาค</h2>
                     <img src="images/hamburger.svg" alt="" class="setting__more">
                 </div>
-    
+
                 <div class="setting__card">
                     <h2 class="setting__text">คู่มือเข้าใช้งาน</h2>
                     <img src="images/hamburger.svg" alt="" class="setting__more">
                 </div>
             </div>
-    
+
             <div class="setting__button">
                 <div class="setting__but">
                     <button class="button button-setting">ออกจากระบบ</button>
@@ -228,29 +230,41 @@
 
         </div>
         <nav class="nav-footer">
-                <div class="nav__box">
-                    <div class="nav__item">
-                        <a href="#" class="nav__link"><img src="images/home.svg" alt="nav icon"></a>
-                        <a class="nav__description">หน้าหลัก</a>
-                    </div>
-                    <div class="nav__item">
-                        <a href="#" class="nav__item"><img src="images/coupon.svg" alt="nav icon"></a>
-                        <a class="nav__description">สิทธิ</a>
-                    </div>
-                    <div class="nav__item">
-                        <a href="#" class="nav__item"><img src="images/chatbot.svg" alt="nav icon"></a>
-                        <a class="nav__description">Chatbot</a>
-                    </div>
-                    <div class="nav__item">
-                        <a href="#" class="nav__item"><img src="images/settings.svg" alt="nav icon"></a>
-                        <a class="nav__description">การตั้งค่า</a>
-                    </div>
+            <div class="nav__box">
+                <div class="nav__item active" data-page="overview">
+                    <a href="#" class="nav__link">
+                        <img src="images/home.svg" alt="">
+                    </a>
+                    <a class="nav__description">หน้าหลัก</a>
                 </div>
 
-                <div class="nav__choose"></div>
-        <nav>
+                <div class="nav__item" data-page="coupon">
+                    <a href="#" class="nav__link">
+                        <img src="images/coupon.svg" alt="">
+                    </a>
+                    <a class="nav__description">สิทธิ</a>
+                </div>
+
+                <div class="nav__item" data-page="chatbot">
+                    <a href="#" class="nav__link">
+                        <img src="images/chatbot.svg" alt="">
+                    </a>
+                    <a class="nav__description">Chatbot</a>
+                </div>
+
+                <div class="nav__item" data-page="setting">
+                    <a href="#" class="nav__link">
+                        <img src="images/settings.svg" alt="">
+                    </a>
+                    <a class="nav__description">การตั้งค่า</a>
+                </div>
+            </div>
+
+            <div class="nav__choose"></div>
+            <nav>
     </footer>
 
     <script src="script.js"></script>
 </body>
+
 </html>
